@@ -1,0 +1,13 @@
+---
+
+# vars file for VMdeploy
+vcenter_hostname: 10.0.0.24
+username: administrator@vsphere.local
+password: Galaxy@j7
+folder: Dockers
+datastore: LOCALDS
+vmtemplate: RHEL
+vmcluster: vsancluster
+servers:
+  - RHELServer1
+  - RHELServer2
